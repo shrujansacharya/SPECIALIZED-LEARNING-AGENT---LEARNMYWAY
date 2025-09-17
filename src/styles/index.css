@@ -1,0 +1,29 @@
+/* Forcefully removes unwanted top spacing on the subjects page */
+.subjects-page-container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Import Tailwind CSS base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styling for the background blobs */
+.blob {
+  position: absolute;
+  border-radius: 9999px; /* This makes them circles */
+  opacity: 0.5;
+  z-index: 1; /* Puts them behind the content */
+  animation: blob-animation 20s infinite alternate;
+}
+
+/* Animation keyframes for the blobs */
+@keyframes blob-animation {
+  0% {
+    transform: scale(1) translate(0px, 0px);
+  }
+  100% {
+    transform: scale(1.2) translate(20px, -30px);
+  }
+}

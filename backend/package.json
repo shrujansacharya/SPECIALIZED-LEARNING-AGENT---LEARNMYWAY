@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^6.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "jszip": "^3.10.1",
+    "monaco-editor": "^0.52.2",
+    "mongoose": "^8.17.1",
+    "multer": "^2.0.2",
+    "node-fetch": "^2.7.0",
+    "pdf-parse": "^1.1.1",
+    "peer": "^1.0.2",
+    "python-shell": "^5.0.0",
+    "react-tsparticles": "^2.12.2",
+    "tesseract.js": "^6.0.1",
+    "tsparticles-slim": "^2.12.0"
+  }
+}

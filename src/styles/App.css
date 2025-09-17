@@ -1,0 +1,102 @@
+
+/* styles/App.css */
+@keyframes blob {
+    0% { transform: translate(0, 0); }
+    50% { transform: translate(100px, 100px); }
+    100% { transform: translate(0, 0); }
+  }
+  .animate-blob {
+    animation: blob 20s infinite;
+  }
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+  @keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
+  .animate-float {
+    animation: float 6s infinite;
+  }
+  .animate-float-delayed {
+    animation: float 6s infinite 3s;
+  }
+  @keyframes fade-in {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-in {
+    animation: fade-in 1s ease-out;
+  }
+  ```css
+/* styles/App.css */
+@keyframes blob {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(100px, 100px); }
+  100% { transform: translate(0, 0); }
+}
+.animate-blob {
+  animation: blob 20s infinite;
+}
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+.animate-float {
+  animation: float 6s infinite;
+}
+.animate-float-delayed {
+  animation: float 6s infinite 3s;
+}
+@keyframes fade-in {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
+```css
+/* styles/App.css */
+@keyframes blob {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(100px, 100px); }
+  100% { transform: translate(0, 0); }
+}
+.animate-blob {
+  animation: blob 20s infinite;
+}
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+.animate-float {
+  animation: float 6s infinite;
+}
+.animate-float-delayed {
+  animation: float 6s infinite 3s;
+}
+@keyframes fade-in {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
